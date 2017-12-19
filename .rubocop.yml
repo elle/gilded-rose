@@ -1,0 +1,14 @@
+AllCops:
+  Exclude:
+    - "Gemfile.lock"
+    - "spec/spec_helper.rb"
+EndOfLine:
+  Enabled: false
+Style/Documentation:
+  enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Metrics/BlockLength:
+  Enabled: false
