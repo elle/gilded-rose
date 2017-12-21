@@ -4,11 +4,36 @@ AllCops:
     - "spec/spec_helper.rb"
 EndOfLine:
   Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+Metrics/LineLength:
+  Max: 80
+Style/ClassAndModuleCamelCase:
+  Enabled: true
+Style/ConstantName:
+  Enabled: true
+Style/DefWithParentheses:
+  Enabled: true
+Style/EmptyLineBetweenDefs:
+  Enabled: true
+Style/IndentationConsistency:
+  Enabled: true
+Style/IdenticalConditionalBranches:
+  Enabled: true
+Style/NegatedIf:
+  Enabled: true
 Style/Documentation:
-  enabled: false
+  Enabled: false
+Style/EmptyLinesAroundClassBody:
+  Enabled: false
 Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/IfInsideElse:
+  Enabled: false
+Style/IfUnlessModifier:
+  Enabled: false
+Style/OneLineConditional:
   Enabled: false
 Style/StringLiterals:
   EnforcedStyle: double_quotes
-Metrics/BlockLength:
-  Enabled: false
